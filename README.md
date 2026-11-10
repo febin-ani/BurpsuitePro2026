@@ -9,12 +9,10 @@ This repository contains step-by-step instructions and video walkthrough referen
 Burp Suite Pro requires a compatible Java Runtime Environment (OpenJDK 21). Follow these steps to install and switch your active Java version.
 
 ### Video Recording: Java Downgrade Guide
-> **[Watch Recording 1: Java Downgrade Walkthrough](recordings/01-downgrade-java.mp4)**  
-> *(Replace the link or filename above with your actual video recording / link)*
 
-```
-[▶ Video 1: Step-by-step Java Downgrade & Alternatives Configuration]
-```
+https://github.com/user-attachments/assets/26aacde4-9899-4647-8efb-9401a79318a2
+
+> 🎥 **[Direct Link: Watch Recording 1 — Java Downgrade](https://github.com/user-attachments/assets/26aacde4-9899-4647-8efb-9401a79318a2)**
 
 ---
 
@@ -59,12 +57,10 @@ java -version
 Follow the sequence below to run the installation script as root, execute under your standard user, and complete activation.
 
 ### Video Recording: Setup & Activation Guide
-> **[Watch Recording 2: Complete Setup & Graphical Launcher Walkthrough](recordings/02-burpsuite-setup.mp4)**  
-> *(Watch the recording for the complete walkthrough, including how to create the graphical desktop launcher)*
 
-```
-[▶ Video 2: Installation Script, Activation Flow, and Graphical Launcher Setup]
-```
+https://github.com/user-attachments/assets/daf26c8b-80d4-41a7-8901-5c41e273d07d
+
+> 🎥 **[Direct Link: Watch Recording 2 — Complete Setup & Graphical Launcher](https://github.com/user-attachments/assets/daf26c8b-80d4-41a7-8901-5c41e273d07d)**
 
 ---
 
@@ -111,4 +107,4 @@ Burp Suite will launch again under your normal user profile.
 6. Click **Next** -> **Finish**.
 
 #### Step 2.7: Graphical Desktop Launcher
-Refer to **Video Walkthrough 2** for the visual guide on creating a desktop graphical application launcher icon for quick access.
+Refer to **Video Walkthrough 2** above for the visual guide on creating a desktop graphical application launcher icon for quick access.
