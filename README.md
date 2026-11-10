@@ -28,7 +28,7 @@ java -version
 On Debian / Ubuntu / Kali Linux:
 ```bash
 sudo apt update
-sudo apt install -y openjdk-21-jre openjdk-21-jdk
+sudo apt install openjdk-21-jdk
 ```
 
 #### Step 1.3: Downgrade / Select Active Java Runtime
