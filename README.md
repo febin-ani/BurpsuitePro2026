@@ -12,7 +12,7 @@ Burp Suite Pro requires a compatible Java Runtime Environment (OpenJDK 21). Foll
 
 https://github.com/user-attachments/assets/26aacde4-9899-4647-8efb-9401a79318a2
 
-> 🎥 **[Direct Link: Watch Recording 1 — Java Downgrade](https://github.com/user-attachments/assets/26aacde4-9899-4647-8efb-9401a79318a2)**
+> 🎥 **[Direct Link: Watch Recording 1 — Java Downgrade](https://github.com/user-attachments/assets/a94fb451-6da1-43cc-b84d-0dcdfefa7f9f)**
 
 ---
 
@@ -60,7 +60,7 @@ Follow the sequence below to run the installation script as root, execute under 
 
 https://github.com/user-attachments/assets/daf26c8b-80d4-41a7-8901-5c41e273d07d
 
-> 🎥 **[Direct Link: Watch Recording 2 — Complete Setup & Graphical Launcher](https://github.com/user-attachments/assets/daf26c8b-80d4-41a7-8901-5c41e273d07d)**
+> 🎥 **[Direct Link: Watch Recording 2 — Complete Setup & Graphical Launcher](https://github.com/user-attachments/assets/84da740c-71e6-4eeb-8562-b2cf44c128cb)**
 
 ---
 
