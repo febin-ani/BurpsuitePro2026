@@ -2,8 +2,6 @@
 
 This repository contains step-by-step instructions and video walkthrough references for setting up and running **Burp Suite Professional (v2026.x)**.
 
-> 📦 **Download Setup Package:** [tinyurl.com/burpsuitepro2026](https://tinyurl.com/burpsuitepro2026)
-
 ---
 
 ## 1. How to Downgrade & Configure Java Version (Video Walkthrough 1)
